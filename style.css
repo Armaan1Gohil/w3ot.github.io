@@ -1,0 +1,46 @@
+body {
+  color: white;
+}
+
+.upper {
+  background-color: #5a5a5a;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 8rem;
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  color: #d3d3d3;
+}
+
+.right {
+  text-align: right;
+}
+
+.container {
+  color: black;
+}
+
+.modal {
+  color: black;
+}
+
+.shadow {
+ -webkit-box-shadow: 0px 0px 10x 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+
+
+

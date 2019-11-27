@@ -1,0 +1,67 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Minor Project - Control</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  <div>
+    <section class="upper">
+      <h1><strong>W<sup>3</sup>OT</strong></h1>
+      <h6>(World Wide Web of Things)</h6>
+      <br>
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3 right">Made By:</div>
+        <div class="col-lg-3">
+          <p>Abideep Sing Kondal (UE164007)</p>
+          <p>Armaan Gohil (UE164016)</p>
+        </div>
+      </div>
+      
+    </section>
+    <br>
+    <section class="container">
+    <div class="row">
+      <div class="col"><div class="shadow card">
+        <div class="card-body">
+          <form
+            action="https://api.particle.io/v1/devices/your-device-ID-goes-here/led?access_token=your-access-token-goes-here"
+            method="POST">
+            <p>
+              <h3>LED:</h3>
+                <br>
+                <input type="radio" name="arg" value="on"> ON
+                <br>
+                <br>
+                <input type="radio" name="arg" value="off"> OFF
+                <br>
+                <br>
+                <input class="btn btn-success" type="submit" value="Do it!">
+            </p>
+          </form>
+        </div>
+    </div>  
+    </div>
+    
+    </section>
+
+  </div>
+  
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="password.js"></script>
+</body>
+</html>
